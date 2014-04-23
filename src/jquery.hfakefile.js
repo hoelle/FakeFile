@@ -1,5 +1,5 @@
 /*
- hFakeFile v0.1
+ hFakeFile v0.2
  (c) 2014 Hoelle Development e.U. - hoelle.net
  license: http://www.opensource.org/licenses/mit-license.php
  */
@@ -62,7 +62,7 @@
 								name: $file.attr('name') + '_display',
 								class: 'display',
 								placeholder: settings.displayPlaceholder
-							}).css(inputCss),
+							}).prop('readonly', true).css(inputCss),
 							$indicator = $('<div />', {
 								class: 'indicator'
 							}).css(indicatorCss).text(settings.indicatorLabel);
