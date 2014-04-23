@@ -22,14 +22,16 @@
 					inputCss = {
 						display: 'inline-block',
 						position: 'relative',
-						width: '75%'
+						width: '75%',
+						behavior: 'none'
 					},
 					indicatorCss = {
 						display: 'inline-block',
 						position: 'absolute',
 						right: '0',
 						textAlign: 'center',
-						width: '24%'
+						width: '24%',
+						behavior: 'none'
 					},
 					fileCss = {
 						display: 'block',
@@ -42,7 +44,8 @@
 						cursor: 'pointer',
 						border: 0,
 						outline: 0,
-						zIndex: 5
+						zIndex: 5,
+						behavior: 'none'
 					};
 
 				return this.each(function () {
